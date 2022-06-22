@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = 'devopsTestCloud_mars_tob_test'
+  s.name             = 'devopsTestCloud_mars_tob_test1'
   s.version          = '0.0.2'
-  s.summary          = 'A short description of devopsTestCloud_mars_tob_test.'
+  s.summary          = 'A short description of devopsTestCloud_mars_tob_test1.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -18,11 +18,11 @@ TODO: Add long description of the pod here.
   end 
   s.subspec 'AAS' do |ss| 
     ss.source_files = 'DevopsTestModule/DevopsTestModule/AA/*.{h,m}' 
-    ss.dependency 'devopsTestCloud_mars_tob_test/Core'
+    ss.dependency 'devopsTestCloud_mars_tob_test1/Core'
   end
   s.subspec 'BBS' do |ss|
     ss.source_files = 'DevopsTestModule/DevopsTestModule/BB/*.{h,m}' 
-    ss.dependency 'devopsTestCloud_mars_tob_test/Core'
+    ss.dependency 'devopsTestCloud_mars_tob_test1/Core'
   end
   s.subspec 'ModuleInterface' do |ss|
     ss.subspec 'MIA' do |sss|
